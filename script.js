@@ -1,8 +1,5 @@
-let hKey = document.querySelector("#hkey")
-let hWhich = document.querySelector("#hwhich")
-let hCode = document.querySelector("#hcode")
-
 window.addEventListener("keydown", function (event){
+    document.querySelector("#container1").style.visibility = "visible";
     let pressKey = document.querySelector("#presskey");
     pressKey.textContent = event.which;    
     let eventKey = document.querySelector("#eventkey");
